@@ -128,6 +128,13 @@ DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "dist"
 # If use HMR or not.
 DJANGO_VITE_DEV_MODE = DEBUG
 
+if DJANGO_VITE_DEV_MODE:
+    import mimetypes
+    mimetypes.add_type("application/javascript", ".ts", True)
+
+# Vite dev server port
+DJANGO_VITE_DEV_SERVER_PORT = 3002
+
 # Name of static files folder (after called python manage.py collectstatic)
 STATIC_ROOT = "collectedstatic"
 

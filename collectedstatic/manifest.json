@@ -1,0 +1,19 @@
+{
+  "js/main.ts": {
+    "file": "main.cfff98c3.js",
+    "src": "js/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_vendor-cd0fff50.js"
+    ],
+    "css": [
+      "main.b16cdc1a.css"
+    ],
+    "assets": [
+      "MyService.background.8f154109.js"
+    ]
+  },
+  "_vendor-cd0fff50.js": {
+    "file": "vendor-cd0fff50.js"
+  }
+}
